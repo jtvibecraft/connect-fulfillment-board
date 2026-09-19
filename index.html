@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Connect Fulfillment — Remaining</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="topbar">
+      <div class="brand">
+        <h1>Connect Fulfillment</h1>
+        <p class="subtitle">Remaining · blockers · context · public</p>
+      </div>
+      <div class="meta-right">
+        <div class="badge-row" id="source-badges" title="Data-source status only — not work queues">
+          <span class="badge" id="badge-promos"><span class="dot"></span> Promotions…</span>
+          <span class="badge" id="badge-week"><span class="dot"></span> Week issued…</span>
+        </div>
+        <div class="timestamp" id="updated-at">Updated —</div>
+        <button class="btn" id="btn-refresh" type="button">Refresh</button>
+      </div>
+    </header>
+
+    <div id="error-slot"></div>
+
+    <!-- 1. Remaining (only hero list of work). Pending Delivery = filter tab only. -->
+    <section class="section hero" aria-labelledby="owed-title">
+      <div class="section-head">
+        <div>
+          <h2 id="owed-title">Remaining</h2>
+          <p class="section-lead" id="owed-lead">Unique promo / work items still open — not NFT unit totals</p>
+        </div>
+        <div class="hero-stat" id="owed-stat">
+          <span class="hero-num" id="owed-count">—</span>
+          <span class="hero-label" id="owed-label">promo lines</span>
+        </div>
+      </div>
+      <p class="hero-note" id="owed-note">Remaining work is unit-level inside each promo sheet; this board currently tracks promo lines until sheet unit counts are wired.</p>
+
+      <div class="blocker-strip" id="blocker-strip" hidden></div>
+
+      <div class="filters" id="ex-filters" role="tablist" aria-label="Remaining filters">
+        <button type="button" class="filter-btn active" data-ex-filter="all">All <span class="filter-count" id="efc-all"></span></button>
+        <button type="button" class="filter-btn" data-ex-filter="needs_review">Needs Review <span class="filter-count" id="efc-needs"></span></button>
+        <button type="button" class="filter-btn" data-ex-filter="pending_delivery">Pending Delivery <span class="filter-count" id="efc-pending"></span></button>
+        <button type="button" class="filter-btn" data-ex-filter="null_last_sent">Null last_sent <span class="filter-count" id="efc-null"></span></button>
+        <button type="button" class="filter-btn" data-ex-filter="invoice">Invoice <span class="filter-count" id="efc-invoice"></span></button>
+        <button type="button" class="filter-btn" data-ex-filter="high">High <span class="filter-count" id="efc-high"></span></button>
+        <button type="button" class="filter-btn" data-ex-filter="blocked">Blocked <span class="filter-count" id="efc-blocked"></span></button>
+        <button type="button" class="filter-btn" data-ex-filter="missing_form">Missing Form <span class="filter-count" id="efc-form"></span></button>
+      </div>
+
+      <div class="panel">
+        <ul class="ex-list scroll-max" id="ex-list">
+          <li class="loading-overlay">Loading remaining work…</li>
+        </ul>
+      </div>
+      <p class="raw-hint" id="raw-ex-hint"></p>
+    </section>
+
+    <!-- 2. Context this week (collapsed). All promos catalog demoted here — not debt. -->
+    <section class="section context-section" aria-labelledby="context-title">
+      <details class="context-details" id="context-details">
+        <summary class="context-summary">
+          <span id="context-title">Context this week</span>
+          <span class="context-summary-meta" id="context-summary-meta">Issued — · On-time —</span>
+        </summary>
+        <div class="context-body">
+          <div class="kpi-strip compact" id="kpi-strip">
+            <div class="kpi"><div class="label">Issued</div><div class="value" id="kpi-issued">—</div><div class="sub" id="kpi-issued-sub">units this week</div></div>
+            <div class="kpi"><div class="label">Brands</div><div class="value" id="kpi-brands">—</div><div class="sub">with activity</div></div>
+            <div class="kpi"><div class="label">Products</div><div class="value" id="kpi-products">—</div><div class="sub">distinct SKUs</div></div>
+            <div class="kpi"><div class="label">On-time</div><div class="value" id="kpi-ontime">—</div><div class="sub" id="kpi-ontime-sub">not on API</div></div>
+          </div>
+          <p class="hint" id="week-range" style="margin:12px 0 8px;font-size:12px;color:var(--text-dim)">—</p>
+          <div class="brand-chips" id="brand-chips"></div>
+          <div class="chart-wrap" id="product-chart">
+            <div class="loading-overlay">Loading…</div>
+          </div>
+          <div class="activity-grid" id="activity-grid">
+            <div class="activity-card" id="activity-24h">
+              <h3>Sheet activity · 24h <span class="sum" id="sum-24h">—</span></h3>
+              <div class="empty-state"><strong>No dated activity</strong>Nothing in the last 24h window.</div>
+            </div>
+            <div class="activity-card" id="activity-week">
+              <h3>Sheet activity · week <span class="sum" id="sum-week">—</span></h3>
+              <div class="empty-state"><strong>No dated activity</strong>Nothing since week start.</div>
+            </div>
+          </div>
+
+          <div class="promo-catalog" aria-labelledby="promo-title">
+            <div class="promo-catalog-head">
+              <div>
+                <h3 id="promo-title">All promos</h3>
+                <p class="promo-catalog-lead">Catalog · status reference — not a second work queue</p>
+              </div>
+              <span class="hint" id="promo-count">—</span>
+            </div>
+            <div class="filters" id="promo-filters" role="tablist" aria-label="Promo catalog filters">
+              <button type="button" class="filter-btn active" data-filter="all">All <span class="filter-count" id="fc-all"></span></button>
+              <button type="button" class="filter-btn" data-filter="active">Active <span class="filter-count" id="fc-active"></span></button>
+              <button type="button" class="filter-btn" data-filter="needs_review">Needs Review <span class="filter-count" id="fc-needs"></span></button>
+              <button type="button" class="filter-btn" data-filter="high">High <span class="filter-count" id="fc-high"></span></button>
+            </div>
+            <div class="panel">
+              <div class="table-wrap scroll-max">
+                <table class="data" id="promo-table">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Brand</th>
+                      <th>Status</th>
+                      <th>Tags</th>
+                      <th>Last sent</th>
+                      <th>Due</th>
+                      <th>Priority</th>
+                      <th>Owner</th>
+                      <th>Evidence</th>
+                    </tr>
+                  </thead>
+                  <tbody id="promo-tbody">
+                    <tr><td colspan="9" class="cell-muted">Loading…</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <footer class="footer">
+      <span>Connect Fulfillment · read-only · no sheet edits</span>
+      <span id="footer-source">Data: snapshot + live APIs</span>
+    </footer>
+  </div>
+  <script src="config.js"></script>
+  <script src="priority-pins.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

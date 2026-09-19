@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-09-19T00:42:33.715344+00:00",
+  "timezone": "America/New_York",
+  "hero_metric": "unsent_nft_qty",
+  "hero_rule": "Action=Complete AND Fulfillment Date (NFT) blank; sum Qty",
+  "source": "recoveryboy1 CSV export via Sheets Download",
+  "blocks": {
+    "B63": {
+      "access": "ok",
+      "file": "B63.csv",
+      "missing_form_members": 6092,
+      "complete_members": 711,
+      "complete_qty": 10593,
+      "unsent_nft_members": 81,
+      "unsent_nft_qty": 0,
+      "sent_nft_qty": 10593
+    },
+    "B64": {
+      "access": "ok",
+      "file": "B64.csv",
+      "missing_form_members": 6107,
+      "complete_members": 712,
+      "complete_qty": 11538,
+      "unsent_nft_members": 65,
+      "unsent_nft_qty": 26,
+      "sent_nft_qty": 11512
+    },
+    "B65": {
+      "access": "ok",
+      "file": "B65.csv",
+      "missing_form_members": 6157,
+      "complete_members": 679,
+      "complete_qty": 12923,
+      "unsent_nft_members": 35,
+      "unsent_nft_qty": 26,
+      "sent_nft_qty": 12897
+    },
+    "B66": {
+      "access": "ok",
+      "file": "B66.csv",
+      "missing_form_members": 6176,
+      "complete_members": 672,
+      "complete_qty": 14069,
+      "unsent_nft_members": 35,
+      "unsent_nft_qty": 2,
+      "sent_nft_qty": 14067
+    },
+    "B67": {
+      "access": "ok",
+      "file": "B67.csv",
+      "missing_form_members": 6208,
+      "complete_members": 644,
+      "complete_qty": 11184,
+      "unsent_nft_members": 27,
+      "unsent_nft_qty": 0,
+      "sent_nft_qty": 11184
+    },
+    "B61": {
+      "access": "need_access",
+      "note": "recoveryboy1 You need access / no Drive match"
+    },
+    "B62": {
+      "access": "need_access",
+      "note": "recoveryboy1 You need access / no Drive match"
+    }
+  },
+  "totals": {
+    "unsent_nft_qty_readable_blocks": 54,
+    "unsent_nft_members_readable_blocks": 243,
+    "blocks_ok": [
+      "B63",
+      "B64",
+      "B65",
+      "B66",
+      "B67"
+    ],
+    "blocks_blocked": [
+      "B61",
+      "B62"
+    ]
+  }
+}
