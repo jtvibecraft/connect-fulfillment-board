@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-19T07:03:25.863960-04:00",
+  "generated_at": "2026-09-20T07:09:28.118018-04:00",
   "timezone": "America/New_York",
   "week": {
     "week_start": "2026-09-14",
     "week_end": "2026-09-20",
-    "total": 457,
+    "total": 498,
     "brands": 10,
     "products": [
       {
@@ -15,62 +15,62 @@
       {
         "brand": "Connect",
         "product": "Smart Node",
-        "totalQuantity": 41
+        "totalQuantity": 48
       },
       {
         "brand": "Connect",
         "product": "BlockBot AI Access",
-        "totalQuantity": 38
-      },
-      {
-        "brand": "Connect",
-        "product": "Lite Node",
-        "totalQuantity": 6
+        "totalQuantity": 45
       },
       {
         "brand": "Connect",
         "product": "Single Lesson Learn2Earn NFT",
-        "totalQuantity": 6
+        "totalQuantity": 8
+      },
+      {
+        "brand": "Connect",
+        "product": "Lite Node",
+        "totalQuantity": 8
       },
       {
         "brand": "Element",
         "product": "Lite Node",
-        "totalQuantity": 6
+        "totalQuantity": 8
       },
       {
         "brand": "Elevate",
         "product": "Lite Node",
-        "totalQuantity": 6
+        "totalQuantity": 8
       },
       {
         "brand": "FoundationsAI",
         "product": "Smart Node",
-        "totalQuantity": 47
+        "totalQuantity": 54
       },
       {
         "brand": "Galvan",
         "product": "Lite Node",
-        "totalQuantity": 6
+        "totalQuantity": 8
       },
       {
         "brand": "Green",
         "product": "Lite Node",
-        "totalQuantity": 6
+        "totalQuantity": 8
       },
       {
         "brand": "Grow",
         "product": "Lite Node",
-        "totalQuantity": 6
+        "totalQuantity": 8
       },
       {
         "brand": "Liberty",
         "product": "Lite Node",
-        "totalQuantity": 6
+        "totalQuantity": 8
       },
       {
         "brand": "R-Link",
         "product": "Lite Node",
-        "totalQuantity": 26
+        "totalQuantity": 28
       },
       {
         "brand": "R-Link",
@@ -90,12 +90,12 @@
       {
         "brand": "Switch",
         "product": "Lite Node",
-        "totalQuantity": 6
+        "totalQuantity": 8
       }
     ],
     "source": "https://promotions-api.asabadoelement.workers.dev/scoreboard/zero-transactions",
-    "prior_total_at_last_snapshot": 449,
-    "delta_since_last_snapshot": 8
+    "prior_total_at_last_snapshot": 457,
+    "delta_since_last_snapshot": 41
   },
   "promotions": {
     "source": "https://promotions-api.asabadoelement.workers.dev/scoreboard/promotions",
@@ -127,7 +127,7 @@
       "L2E Activated Single Lesson NFTs",
       "Jedi NFT Salary"
     ],
-    "active_google_sheets_count": 26,
+    "active_google_sheets_count": 35,
     "exceptions": [
       {
         "priority": 1,
@@ -288,7 +288,7 @@
       {
         "priority": 3,
         "source": "promotions_api",
-        "title": "High priority: DroidPay \u2014 daily lag ~199h",
+        "title": "High priority: DroidPay \u2014 daily lag ~223h",
         "detail": "freq=Daily; last_sent=2026-09-11T03:34:01.966Z; team=Active",
         "evidence": {
           "id": "a163df6b-8a3c-495c-b39e-4712de677a03",
@@ -304,7 +304,7 @@
       {
         "priority": 3,
         "source": "promotions_api",
-        "title": "High priority: Give 2 Earn (Give Incentive) \u2014 daily lag ~199h",
+        "title": "High priority: Give 2 Earn (Give Incentive) \u2014 daily lag ~223h",
         "detail": "freq=Daily; last_sent=2026-09-11T04:06:18.650Z; team=Active",
         "evidence": {
           "id": "8746540b-be03-4a59-95ea-93ec09aaad46",
@@ -352,7 +352,7 @@
       {
         "priority": 3,
         "source": "promotions_api",
-        "title": "High priority: Purchased Hosting Credits \u2014 daily lag ~39h",
+        "title": "High priority: Purchased Hosting Credits \u2014 daily lag ~62h",
         "detail": "freq=Daily; last_sent=2026-09-17T20:10:10.868Z; team=Active",
         "evidence": {
           "id": "4a3cbd40-a494-4720-bf63-903cf264f8fd",
@@ -368,7 +368,7 @@
       {
         "priority": 3,
         "source": "promotions_api",
-        "title": "High priority: WINPay",
+        "title": "High priority: WINPay \u2014 daily lag ~37h",
         "detail": "freq=Daily; last_sent=2026-09-18T21:19:43.577Z; team=Active",
         "evidence": {
           "id": "63a17ff6-5169-4d48-bde7-b4139dffda3e",
@@ -494,71 +494,9 @@
         }
       }
     ],
-    "last_24h_api": [
-      {
-        "name": "MatchPay",
-        "last_sent_et": "Fri Sep 18 6:09PM ET",
-        "done_at_et": null,
-        "is_done": 0,
-        "frequency": "Weekly",
-        "file_link": "https://docs.google.com/spreadsheets/d/1Ora0L9BmZuESjTFxi-eiKOpcqcJ6x-jbtDea2sa3b4A/edit?usp=sharing"
-      },
-      {
-        "name": "Boost Distribution",
-        "last_sent_et": "Fri Sep 18 5:19PM ET",
-        "done_at_et": null,
-        "is_done": 0,
-        "frequency": "Weekly",
-        "file_link": "https://docs.google.com/spreadsheets/d/1KdpcZAzDBFZSYXiIIt8g9_Bipd6t9hklNpfTSbN7cf0/edit?usp=sharing"
-      },
-      {
-        "name": "WINPay",
-        "last_sent_et": "Fri Sep 18 5:19PM ET",
-        "done_at_et": null,
-        "is_done": 0,
-        "frequency": "Daily",
-        "file_link": "https://docs.google.com/spreadsheets/d/1iictsBwp6lCC6IbS4b1BCMqbhK0-wGwJotOL8oHNCnk/edit?gid=1936010171#gid=1936010171"
-      },
-      {
-        "name": "L2E B64",
-        "last_sent_et": "Fri Sep 18 1:08PM ET",
-        "done_at_et": "Fri Sep 18 1:08PM ET",
-        "is_done": 1,
-        "frequency": "End Date",
-        "file_link": "https://docs.google.com/spreadsheets/d/10oxPgT2FR3iknU2YXstbKDEPO1yg4kT7ezz7NP4pHbE/edit?usp=sharing"
-      },
-      {
-        "name": "L2E B63",
-        "last_sent_et": "Fri Sep 18 8:00AM ET",
-        "done_at_et": "Fri Sep 18 11:58AM ET",
-        "is_done": 1,
-        "frequency": "End Date",
-        "file_link": "https://docs.google.com/spreadsheets/d/18wBJjHMqGvY1AsOscB9xLPTTR9gSw4Sjyy7jIVADIf8/edit?usp=drive_link"
-      }
-    ],
+    "last_24h_api": [],
     "this_week_api": [
       {
-        "name": "Boost Distribution",
-        "last_sent_et": "Fri Sep 18 5:19PM ET",
-        "done_at_et": null,
-        "is_done": 0,
-        "frequency": "Weekly"
-      },
-      {
-        "name": "FoundationsAI - 100 Tokens/Node/Brand/Day",
-        "last_sent_et": "Mon Sep 14 2:55PM ET",
-        "done_at_et": null,
-        "is_done": 0,
-        "frequency": "Monthly"
-      },
-      {
-        "name": "WINPay",
-        "last_sent_et": "Fri Sep 18 5:19PM ET",
-        "done_at_et": null,
-        "is_done": 0,
-        "frequency": "Daily"
-      },
-      {
         "name": "MatchPay",
         "last_sent_et": "Fri Sep 18 6:09PM ET",
         "done_at_et": null,
@@ -566,15 +504,15 @@
         "frequency": "Weekly"
       },
       {
-        "name": "New Impact BB Incentive - 500k",
-        "last_sent_et": "Tue Sep 15 7:24PM ET",
+        "name": "Boost Distribution",
+        "last_sent_et": "Fri Sep 18 5:19PM ET",
         "done_at_et": null,
         "is_done": 0,
         "frequency": "Weekly"
       },
       {
-        "name": "Purchased Hosting Credits",
-        "last_sent_et": "Thu Sep 17 4:10PM ET",
+        "name": "WINPay",
+        "last_sent_et": "Fri Sep 18 5:19PM ET",
         "done_at_et": null,
         "is_done": 0,
         "frequency": "Daily"
@@ -588,7 +526,7 @@
       },
       {
         "name": "L2E B63",
-        "last_sent_et": "Fri Sep 18 8:00AM ET",
+        "last_sent_et": "Thu Sep 17 8:00PM ET",
         "done_at_et": "Fri Sep 18 11:58AM ET",
         "is_done": 1,
         "frequency": "End Date"
@@ -602,7 +540,7 @@
       },
       {
         "name": "L2E B66",
-        "last_sent_et": "Thu Sep 17 8:00AM ET",
+        "last_sent_et": "Wed Sep 16 8:00PM ET",
         "done_at_et": "Fri Sep 18 12:59AM ET",
         "is_done": 1,
         "frequency": "End Date"
@@ -627,6 +565,27 @@
         "done_at_et": "Fri Sep 18 12:45AM ET",
         "is_done": 1,
         "frequency": "End Date"
+      },
+      {
+        "name": "Purchased Hosting Credits",
+        "last_sent_et": "Thu Sep 17 4:10PM ET",
+        "done_at_et": null,
+        "is_done": 0,
+        "frequency": "Daily"
+      },
+      {
+        "name": "New Impact BB Incentive - 500k",
+        "last_sent_et": "Tue Sep 15 7:24PM ET",
+        "done_at_et": null,
+        "is_done": 0,
+        "frequency": "Weekly"
+      },
+      {
+        "name": "FoundationsAI - 100 Tokens/Node/Brand/Day",
+        "last_sent_et": "Mon Sep 14 2:55PM ET",
+        "done_at_et": null,
+        "is_done": 0,
+        "frequency": "Monthly"
       },
       {
         "name": "Top 10 Sales Promo - 100M Token Pool",
@@ -1609,10 +1568,11 @@
     }
   ],
   "analysis_windows": {
-    "now_et": "2026-09-19T07:03:25.863960-04:00",
-    "last_24h_from": "2026-09-18T07:03:25.863960-04:00",
+    "now_et": "2026-09-20T07:09:28.118018-04:00",
+    "last_24h_from": "2026-09-19T07:09:28.118018-04:00",
     "week_start_et": "2026-09-14T00:00:00-04:00",
     "week_start_note": "Sep 14 2026 00:00 America/New_York (aligned with zero-transactions week_start)",
-    "sheet_summaries_as_of": "2026-09-18T19:38:14-04:00 (not re-pulled this morning \u2014 API refresh only)"
-  }
+    "sheet_summaries_as_of": "2026-09-20T07:08 ET (triage CSVs refreshed; full sheet re-parse deferred \u2014 API + KPI primary)"
+  },
+  "_sheet_csv_refreshed_at": "2026-09-20T07:09:28.118018-04:00"
 }

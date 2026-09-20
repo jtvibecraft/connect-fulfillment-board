@@ -14,6 +14,15 @@
     synthesizedPins: [],
   };
 
+
+  /** Normalize Pulse exceptions schema: {exceptions,kpi} or legacy {queue,count}. */
+  function normalizeExceptions(data) {
+    if (!data) return null;
+    const queue = data.queue || data.exceptions || [];
+    const count = data.count ?? queue.length;
+    return Object.assign({}, data, { queue, count });
+  }
+
   /** Dual-mode: config.js sets mode 'local' | 'static'. Auto-detect if missing. */
   function resolveConfig() {
     const cfg = window.FULFILLMENT_CONFIG;
@@ -927,7 +936,7 @@
   }
 
   function renderExceptions() {
-    const raw = state.exceptions?.queue || state.snapshot?.promotions?.exceptions || [];
+    const raw = state.exceptions?.queue || state.exceptions?.exceptions || state.snapshot?.promotions?.exceptions || [];
     const built = buildUniqueQueue(raw);
     const pinned = applyJonP1Pins(built, state.promotions || []);
     state.uniqueQueue = pinned.rows;
@@ -1255,7 +1264,18 @@
       $('kpi-issued-sub').textContent = `units · week of ${fmtShortDate(start)}`;
     }
 
-    $('context-summary-meta').textContent = `Issued ${issued} · On-time — (not on API)`;
+    const exKpi = state.exceptions?.kpi;
+    const delta =
+      exKpi?.delta != null
+        ? Number(exKpi.delta)
+        : week.delta_since_last_snapshot != null
+          ? Number(week.delta_since_last_snapshot)
+          : null;
+    const deltaPart =
+      delta != null && !Number.isNaN(delta)
+        ? ` · Δ ${delta > 0 ? '+' : ''}${delta}`
+        : '';
+    $('context-summary-meta').textContent = `Issued ${issued}${deltaPart} · On-time — (not on API)`;
   }
 
   function renderChart() {
@@ -1430,13 +1450,12 @@
     }
 
     if (exR.status === 'fulfilled') {
-      state.exceptions = exR.value.data;
+      state.exceptions = normalizeExceptions(exR.value.data);
     } else if (state.snapshot?.promotions?.exceptions) {
-      state.exceptions = {
+      state.exceptions = normalizeExceptions({
         generated_at: state.snapshot.generated_at,
-        count: state.snapshot.promotions.exceptions.length,
         queue: state.snapshot.promotions.exceptions,
-      };
+      });
     }
 
     if (promoR.status === 'fulfilled') {
