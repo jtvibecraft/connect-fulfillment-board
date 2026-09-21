@@ -1271,10 +1271,15 @@
         : week.delta_since_last_snapshot != null
           ? Number(week.delta_since_last_snapshot)
           : null;
-    const deltaPart =
-      delta != null && !Number.isNaN(delta)
-        ? ` · Δ ${delta > 0 ? '+' : ''}${delta}`
-        : '';
+    // A negative delta at a new week boundary is a rollover (not a decline).
+    // Keep the context line calm; only show plausible same-week increases.
+    const issuedNumber = week.total != null ? Number(week.total) : null;
+    const isPlausibleSameWeekIncrease =
+      delta != null &&
+      !Number.isNaN(delta) &&
+      delta > 0 &&
+      (issuedNumber == null || Number.isNaN(issuedNumber) || delta <= issuedNumber);
+    const deltaPart = isPlausibleSameWeekIncrease ? ` · Δ +${delta}` : '';
     $('context-summary-meta').textContent = `Issued ${issued}${deltaPart} · On-time — (not on API)`;
   }
 
