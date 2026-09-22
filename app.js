@@ -1259,10 +1259,7 @@
 
     const start = week.week_start || state.snapshot?.week?.week_start;
     const end = week.week_end || state.snapshot?.week?.week_end;
-    if (start && end) {
-      $('week-range').textContent = `${fmtShortDate(start)} – ${fmtShortDate(end)}`;
-      $('kpi-issued-sub').textContent = `units · week of ${fmtShortDate(start)}`;
-    }
+    const issuedNumber = week.total != null ? Number(week.total) : null;
 
     const exKpi = state.exceptions?.kpi;
     const delta =
@@ -1271,15 +1268,44 @@
         : week.delta_since_last_snapshot != null
           ? Number(week.delta_since_last_snapshot)
           : null;
+
+    // Calm anomaly note when one SKU dominates (≥90%) or overnight Δ ≥ 1000.
+    let anomalyNote = '';
+    if (products.length && issuedNumber != null && !Number.isNaN(issuedNumber) && issuedNumber > 0) {
+      const top = [...products].sort(
+        (a, b) => (b.totalQuantity || 0) - (a.totalQuantity || 0)
+      )[0];
+      const topQty = Number(top?.totalQuantity || 0);
+      const share = topQty / issuedNumber;
+      const bigDelta = delta != null && !Number.isNaN(delta) && delta >= 1000;
+      if (share >= 0.9 || bigDelta) {
+        const topName = top?.product || 'Unknown product';
+        anomalyNote = `Mostly ${topName}: ${topQty.toLocaleString()} — verify upstream scoreboard`;
+      }
+    }
+
+    const subBase = start ? `units · week of ${fmtShortDate(start)}` : 'units this week';
+    const subEl = $('kpi-issued-sub');
+    if (anomalyNote) {
+      subEl.innerHTML = `${esc(subBase)}<br><span class="kpi-anomaly">${esc(anomalyNote)}</span>`;
+    } else {
+      subEl.textContent = subBase;
+    }
+
+    if (start && end) {
+      $('week-range').textContent = `${fmtShortDate(start)} – ${fmtShortDate(end)}`;
+    }
+
     // A negative delta at a new week boundary is a rollover (not a decline).
     // Keep the context line calm; only show plausible same-week increases.
-    const issuedNumber = week.total != null ? Number(week.total) : null;
     const isPlausibleSameWeekIncrease =
       delta != null &&
       !Number.isNaN(delta) &&
       delta > 0 &&
       (issuedNumber == null || Number.isNaN(issuedNumber) || delta <= issuedNumber);
-    const deltaPart = isPlausibleSameWeekIncrease ? ` · Δ +${delta}` : '';
+    const deltaPart = isPlausibleSameWeekIncrease
+      ? ` · Δ +${Number(delta).toLocaleString()}`
+      : '';
     $('context-summary-meta').textContent = `Issued ${issued}${deltaPart} · On-time — (not on API)`;
   }
 

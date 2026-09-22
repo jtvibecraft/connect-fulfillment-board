@@ -1,21 +1,101 @@
 {
-  "generated_at": "2026-09-21T07:13:38.189758-04:00",
+  "generated_at": "2026-09-22T07:11:41.074301-04:00",
   "timezone": "America/New_York",
   "week": {
     "week_start": "2026-09-21",
     "week_end": "2026-09-27",
-    "total": 50,
-    "brands": 1,
+    "total": 16775,
+    "brands": 10,
     "products": [
       {
         "brand": "Connect",
         "product": "WIN Boost NFT* (Legendary)",
-        "totalQuantity": 50
+        "totalQuantity": 16743
+      },
+      {
+        "brand": "Connect",
+        "product": "Smart Node",
+        "totalQuantity": 3
+      },
+      {
+        "brand": "Connect",
+        "product": "BlockBot AI Access",
+        "totalQuantity": 3
+      },
+      {
+        "brand": "Connect",
+        "product": "Lite Node",
+        "totalQuantity": 1
+      },
+      {
+        "brand": "Connect",
+        "product": "Single Lesson Learn2Earn NFT",
+        "totalQuantity": 1
+      },
+      {
+        "brand": "Element",
+        "product": "Lite Node",
+        "totalQuantity": 1
+      },
+      {
+        "brand": "Elevate",
+        "product": "Lite Node",
+        "totalQuantity": 1
+      },
+      {
+        "brand": "FoundationsAI",
+        "product": "Smart Node",
+        "totalQuantity": 3
+      },
+      {
+        "brand": "Galvan",
+        "product": "Lite Node",
+        "totalQuantity": 1
+      },
+      {
+        "brand": "Green",
+        "product": "Lite Node",
+        "totalQuantity": 1
+      },
+      {
+        "brand": "Grow",
+        "product": "Lite Node",
+        "totalQuantity": 1
+      },
+      {
+        "brand": "Liberty",
+        "product": "Lite Node",
+        "totalQuantity": 1
+      },
+      {
+        "brand": "R-Link",
+        "product": "Lite Node",
+        "totalQuantity": 11
+      },
+      {
+        "brand": "R-Link",
+        "product": "Smart Node",
+        "totalQuantity": 1
+      },
+      {
+        "brand": "R-Link",
+        "product": "Rally Droid",
+        "totalQuantity": 1
+      },
+      {
+        "brand": "R-Link",
+        "product": "Rally BlockBot",
+        "totalQuantity": 1
+      },
+      {
+        "brand": "Switch",
+        "product": "Lite Node",
+        "totalQuantity": 1
       }
     ],
     "source": "https://promotions-api.asabadoelement.workers.dev/scoreboard/zero-transactions",
-    "prior_total_at_last_snapshot": 498,
-    "delta_since_last_snapshot": -448
+    "prior_total_at_last_snapshot": 50,
+    "delta_since_last_snapshot": 16725
   },
   "promotions": {
     "source": "https://promotions-api.asabadoelement.workers.dev/scoreboard/promotions",
@@ -207,7 +287,7 @@
       {
         "priority": 3,
         "source": "promotions_api",
-        "title": "High priority: DroidPay \u2014 lag ~247h",
+        "title": "High priority: DroidPay \u2014 lag ~271h",
         "detail": "freq=Daily; last_sent=2026-09-11T03:34:01.966Z; team=Active",
         "evidence": {
           "id": "a163df6b-8a3c-495c-b39e-4712de677a03",
@@ -223,7 +303,7 @@
       {
         "priority": 3,
         "source": "promotions_api",
-        "title": "High priority: Give 2 Earn (Give Incentive) \u2014 lag ~247h",
+        "title": "High priority: Give 2 Earn (Give Incentive) \u2014 lag ~271h",
         "detail": "freq=Daily; last_sent=2026-09-11T04:06:18.650Z; team=Active",
         "evidence": {
           "id": "8746540b-be03-4a59-95ea-93ec09aaad46",
@@ -255,7 +335,7 @@
       {
         "priority": 3,
         "source": "promotions_api",
-        "title": "High priority: MatchPay \u2014 lag ~61h",
+        "title": "High priority: MatchPay \u2014 lag ~85h",
         "detail": "freq=Weekly; last_sent=2026-09-18T22:09:51.312Z; team=Active",
         "evidence": {
           "id": "3860068e-a59a-47e4-9748-9b1d02e79ac6",
@@ -271,7 +351,7 @@
       {
         "priority": 3,
         "source": "promotions_api",
-        "title": "High priority: Purchased Hosting Credits \u2014 lag ~87h",
+        "title": "High priority: Purchased Hosting Credits \u2014 lag ~111h",
         "detail": "freq=Daily; last_sent=2026-09-17T20:10:10.868Z; team=Active",
         "evidence": {
           "id": "4a3cbd40-a494-4720-bf63-903cf264f8fd",
@@ -287,7 +367,7 @@
       {
         "priority": 3,
         "source": "promotions_api",
-        "title": "High priority: WINPay \u2014 lag ~61h",
+        "title": "High priority: WINPay \u2014 lag ~85h",
         "detail": "freq=Daily; last_sent=2026-09-18T21:19:43.577Z; team=Active",
         "evidence": {
           "id": "63a17ff6-5169-4d48-bde7-b4139dffda3e",
@@ -1428,11 +1508,11 @@
     }
   ],
   "analysis_windows": {
-    "now_et": "2026-09-21T07:13:38.189758-04:00",
-    "last_24h_from": "2026-09-20T07:13:38.189758-04:00",
+    "now_et": "2026-09-22T07:11:41.074301-04:00",
+    "last_24h_from": "2026-09-21T07:11:41.074301-04:00",
     "week_start_et": "2026-09-21T00:00:00-04:00",
     "week_start_note": "Sep 21 2026 00:00 America/New_York (aligned with zero-transactions week_start)",
-    "sheet_summaries_as_of": "2026-09-21T07:13 ET (triage + extra CSVs refreshed; date windows recomputed)"
+    "sheet_summaries_as_of": "2026-09-22T07:11 ET (triage + extra CSVs refreshed; date windows recomputed)"
   },
-  "_sheet_csv_refreshed_at": "2026-09-21T07:13:38.189758-04:00"
+  "_sheet_csv_refreshed_at": "2026-09-22T07:11:41.074301-04:00"
 }

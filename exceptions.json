@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T07:13:38.189758-04:00",
+  "generated_at": "2026-09-22T07:11:41.074301-04:00",
   "count": 29,
   "queue": [
     {
@@ -161,7 +161,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: DroidPay \u2014 lag ~247h",
+      "title": "High priority: DroidPay \u2014 lag ~271h",
       "detail": "freq=Daily; last_sent=2026-09-11T03:34:01.966Z; team=Active",
       "evidence": {
         "id": "a163df6b-8a3c-495c-b39e-4712de677a03",
@@ -177,7 +177,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: Give 2 Earn (Give Incentive) \u2014 lag ~247h",
+      "title": "High priority: Give 2 Earn (Give Incentive) \u2014 lag ~271h",
       "detail": "freq=Daily; last_sent=2026-09-11T04:06:18.650Z; team=Active",
       "evidence": {
         "id": "8746540b-be03-4a59-95ea-93ec09aaad46",
@@ -209,7 +209,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: MatchPay \u2014 lag ~61h",
+      "title": "High priority: MatchPay \u2014 lag ~85h",
       "detail": "freq=Weekly; last_sent=2026-09-18T22:09:51.312Z; team=Active",
       "evidence": {
         "id": "3860068e-a59a-47e4-9748-9b1d02e79ac6",
@@ -225,7 +225,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: Purchased Hosting Credits \u2014 lag ~87h",
+      "title": "High priority: Purchased Hosting Credits \u2014 lag ~111h",
       "detail": "freq=Daily; last_sent=2026-09-17T20:10:10.868Z; team=Active",
       "evidence": {
         "id": "4a3cbd40-a494-4720-bf63-903cf264f8fd",
@@ -241,7 +241,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: WINPay \u2014 lag ~61h",
+      "title": "High priority: WINPay \u2014 lag ~85h",
       "detail": "freq=Daily; last_sent=2026-09-18T21:19:43.577Z; team=Active",
       "evidence": {
         "id": "63a17ff6-5169-4d48-bde7-b4139dffda3e",
@@ -587,7 +587,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: DroidPay \u2014 lag ~247h",
+      "title": "High priority: DroidPay \u2014 lag ~271h",
       "detail": "freq=Daily; last_sent=2026-09-11T03:34:01.966Z; team=Active",
       "evidence": {
         "id": "a163df6b-8a3c-495c-b39e-4712de677a03",
@@ -603,7 +603,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: Give 2 Earn (Give Incentive) \u2014 lag ~247h",
+      "title": "High priority: Give 2 Earn (Give Incentive) \u2014 lag ~271h",
       "detail": "freq=Daily; last_sent=2026-09-11T04:06:18.650Z; team=Active",
       "evidence": {
         "id": "8746540b-be03-4a59-95ea-93ec09aaad46",
@@ -635,7 +635,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: MatchPay \u2014 lag ~61h",
+      "title": "High priority: MatchPay \u2014 lag ~85h",
       "detail": "freq=Weekly; last_sent=2026-09-18T22:09:51.312Z; team=Active",
       "evidence": {
         "id": "3860068e-a59a-47e4-9748-9b1d02e79ac6",
@@ -651,7 +651,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: Purchased Hosting Credits \u2014 lag ~87h",
+      "title": "High priority: Purchased Hosting Credits \u2014 lag ~111h",
       "detail": "freq=Daily; last_sent=2026-09-17T20:10:10.868Z; team=Active",
       "evidence": {
         "id": "4a3cbd40-a494-4720-bf63-903cf264f8fd",
@@ -667,7 +667,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: WINPay \u2014 lag ~61h",
+      "title": "High priority: WINPay \u2014 lag ~85h",
       "detail": "freq=Daily; last_sent=2026-09-18T21:19:43.577Z; team=Active",
       "evidence": {
         "id": "63a17ff6-5169-4d48-bde7-b4139dffda3e",
@@ -854,9 +854,9 @@
     }
   ],
   "kpi": {
-    "total": 50,
-    "delta": -448,
-    "prior": 498,
+    "total": 16775,
+    "delta": 16725,
+    "prior": 50,
     "week_start": "2026-09-21",
     "week_end": "2026-09-27"
   }
