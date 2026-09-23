@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T07:11:41.074301-04:00",
+  "generated_at": "2026-09-23T07:08:57.957843-04:00",
   "count": 29,
   "queue": [
     {
@@ -17,8 +17,24 @@
     {
       "priority": 1,
       "source": "promotions_api",
+      "title": "Needs Review: DroidPay",
+      "detail": "team_status=Needs Review; comments='Needs Power Bi update'",
+      "evidence": {
+        "id": "a163df6b-8a3c-495c-b39e-4712de677a03",
+        "brand": "AdventureWurld,Codex,Connect,Element,Elevate,Galvan,Green,Grow,Rally,Switch",
+        "last_sent": "2026-09-11T03:34:01.966Z",
+        "tags": "",
+        "status": "active",
+        "file_link": "https://docs.google.com/spreadsheets/d/1bmCm6YGqE8n-A9RGrZ-KwPx8JT-ETGGqKsKizSwsr-0/edit?usp=sharing",
+        "frequency": "Daily",
+        "team_status": "Needs Review"
+      }
+    },
+    {
+      "priority": 1,
+      "source": "promotions_api",
       "title": "Needs Review: Founder Node Allocation",
-      "detail": "team_status=Needs Review; comments='Need to transfer 1 Codex SN from joemartinez.inc@gmail.com to hixpit57@gmail.com'",
+      "detail": "team_status=Needs Review; comments='Need to transfer 1 Codex SN from joemartinez.inc@gmail.com to hixpit57@gmail.com, Need access to transfer tool from Justin.'",
       "evidence": {
         "id": "865cada4-12bf-4d3a-b8c7-e3f44e147451",
         "brand": "Codex",
@@ -27,6 +43,38 @@
         "status": "active",
         "file_link": "https://docs.google.com/spreadsheets/d/1HJCRaRqts2NznBbLTbQ3PXzBgTDlFemuIizu-xsO5CU/edit?usp=sharing",
         "frequency": "One-time",
+        "team_status": "Needs Review"
+      }
+    },
+    {
+      "priority": 1,
+      "source": "promotions_api",
+      "title": "Needs Review: Give 2 Earn (Give Incentive)",
+      "detail": "team_status=Needs Review; comments='Needs Power Bi update'",
+      "evidence": {
+        "id": "8746540b-be03-4a59-95ea-93ec09aaad46",
+        "brand": "Connect",
+        "last_sent": "2026-09-11T04:06:18.650Z",
+        "tags": "",
+        "status": "active",
+        "file_link": "https://docs.google.com/spreadsheets/d/1Jrv-bQKvgnjXTOYWoQw8PXWGVq-SM_QxTmukfRcwqqE/edit?usp=sharing",
+        "frequency": "Daily",
+        "team_status": "Needs Review"
+      }
+    },
+    {
+      "priority": 1,
+      "source": "promotions_api",
+      "title": "Needs Review: Jedi NFT Salary",
+      "detail": "team_status=Needs Review; comments='Needs Power Bi update.'",
+      "evidence": {
+        "id": "3d47fee9-8001-4b14-b521-29cec2091f9d",
+        "brand": "Connect",
+        "last_sent": "2026-07-21",
+        "tags": "Invoice",
+        "status": "active",
+        "file_link": "https://docs.google.com/spreadsheets/d/1Qqvg-YOXJCPtef0qsE942E1UMtrM0EE-ruy6ytVoBHo/edit?usp=sharing",
+        "frequency": "Weekly",
         "team_status": "Needs Review"
       }
     },
@@ -54,7 +102,7 @@
       "evidence": {
         "id": "7c16d4ad-0710-479d-9058-e09ac1d59b1d",
         "brand": "Codex,Connect,Element,Elevate,Galvan,Give,Green,Grow,Liberty,Rally,Switch",
-        "last_sent": "2026-08-07",
+        "last_sent": "2026-09-09",
         "tags": "Pending Delivery",
         "status": "active",
         "file_link": "https://docs.google.com/spreadsheets/d/1TkQndo_JKIE4lMwyvq3LxPKkwPV80x1-wGqVFz2jsmw/edit?usp=sharing",
@@ -98,16 +146,16 @@
       "priority": 2,
       "source": "promotions_api",
       "title": "Invoice tag: Jedi NFT Salary",
-      "detail": "tags='Invoice'; last_sent=None",
+      "detail": "tags='Invoice'; last_sent=2026-07-21",
       "evidence": {
         "id": "3d47fee9-8001-4b14-b521-29cec2091f9d",
         "brand": "Connect",
-        "last_sent": null,
+        "last_sent": "2026-07-21",
         "tags": "Invoice",
         "status": "active",
         "file_link": "https://docs.google.com/spreadsheets/d/1Qqvg-YOXJCPtef0qsE942E1UMtrM0EE-ruy6ytVoBHo/edit?usp=sharing",
         "frequency": "Weekly",
-        "team_status": "Active"
+        "team_status": "Needs Review"
       }
     },
     {
@@ -134,7 +182,7 @@
       "evidence": {
         "id": "7c16d4ad-0710-479d-9058-e09ac1d59b1d",
         "brand": "Codex,Connect,Element,Elevate,Galvan,Give,Green,Grow,Liberty,Rally,Switch",
-        "last_sent": "2026-08-07",
+        "last_sent": "2026-09-09",
         "tags": "Pending Delivery",
         "status": "active",
         "file_link": "https://docs.google.com/spreadsheets/d/1TkQndo_JKIE4lMwyvq3LxPKkwPV80x1-wGqVFz2jsmw/edit?usp=sharing",
@@ -161,8 +209,8 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: DroidPay \u2014 lag ~271h",
-      "detail": "freq=Daily; last_sent=2026-09-11T03:34:01.966Z; team=Active",
+      "title": "High priority: DroidPay \u2014 lag ~295h",
+      "detail": "freq=Daily; last_sent=2026-09-11T03:34:01.966Z; team=Needs Review",
       "evidence": {
         "id": "a163df6b-8a3c-495c-b39e-4712de677a03",
         "brand": "AdventureWurld,Codex,Connect,Element,Elevate,Galvan,Green,Grow,Rally,Switch",
@@ -171,14 +219,14 @@
         "status": "active",
         "file_link": "https://docs.google.com/spreadsheets/d/1bmCm6YGqE8n-A9RGrZ-KwPx8JT-ETGGqKsKizSwsr-0/edit?usp=sharing",
         "frequency": "Daily",
-        "team_status": "Active"
+        "team_status": "Needs Review"
       }
     },
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: Give 2 Earn (Give Incentive) \u2014 lag ~271h",
-      "detail": "freq=Daily; last_sent=2026-09-11T04:06:18.650Z; team=Active",
+      "title": "High priority: Give 2 Earn (Give Incentive) \u2014 lag ~295h",
+      "detail": "freq=Daily; last_sent=2026-09-11T04:06:18.650Z; team=Needs Review",
       "evidence": {
         "id": "8746540b-be03-4a59-95ea-93ec09aaad46",
         "brand": "Connect",
@@ -187,7 +235,7 @@
         "status": "active",
         "file_link": "https://docs.google.com/spreadsheets/d/1Jrv-bQKvgnjXTOYWoQw8PXWGVq-SM_QxTmukfRcwqqE/edit?usp=sharing",
         "frequency": "Daily",
-        "team_status": "Active"
+        "team_status": "Needs Review"
       }
     },
     {
@@ -209,7 +257,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: MatchPay \u2014 lag ~85h",
+      "title": "High priority: MatchPay \u2014 lag ~108h",
       "detail": "freq=Weekly; last_sent=2026-09-18T22:09:51.312Z; team=Active",
       "evidence": {
         "id": "3860068e-a59a-47e4-9748-9b1d02e79ac6",
@@ -225,12 +273,12 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: Purchased Hosting Credits \u2014 lag ~111h",
-      "detail": "freq=Daily; last_sent=2026-09-17T20:10:10.868Z; team=Active",
+      "title": "High priority: Purchased Hosting Credits \u2014 lag ~151h",
+      "detail": "freq=Daily; last_sent=2026-09-17; team=Active",
       "evidence": {
         "id": "4a3cbd40-a494-4720-bf63-903cf264f8fd",
         "brand": "Codex",
-        "last_sent": "2026-09-17T20:10:10.868Z",
+        "last_sent": "2026-09-17",
         "tags": "",
         "status": "active",
         "file_link": "https://docs.google.com/spreadsheets/d/1fQqTfiEy9jIPBqr8of71gcc8YJtoMS669MctXhb7FFY/edit?usp=sharing",
@@ -241,7 +289,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: WINPay \u2014 lag ~85h",
+      "title": "High priority: WINPay \u2014 lag ~109h",
       "detail": "freq=Daily; last_sent=2026-09-18T21:19:43.577Z; team=Active",
       "evidence": {
         "id": "63a17ff6-5169-4d48-bde7-b4139dffda3e",
@@ -257,22 +305,6 @@
     {
       "priority": 4,
       "source": "promotions_api",
-      "title": "null last_sent (active): 12 Month Hosting Credits",
-      "detail": "status=active; team_status=Active; priority=-",
-      "evidence": {
-        "id": "6dfb637a-970b-401b-8e5e-b740225c1c6c",
-        "brand": "Codex,Connect",
-        "last_sent": null,
-        "tags": "",
-        "status": "active",
-        "file_link": "https://docs.google.com/spreadsheets/d/1n_DRdUOiesvJ9IOCAr9bA9vsyqVj0QF3H6toIxOSSGc/edit?usp=sharing",
-        "frequency": "One-time",
-        "team_status": "Active"
-      }
-    },
-    {
-      "priority": 4,
-      "source": "promotions_api",
       "title": "null last_sent (active): Data Download",
       "detail": "status=active; team_status=Active; priority=-",
       "evidence": {
@@ -282,38 +314,6 @@
         "tags": "",
         "status": "active",
         "file_link": "https://docs.google.com/spreadsheets/d/1Z_nT8mJBArdyssa-UWpU3K7FTNU1NWKhTZgWWvrGXt0/edit?usp=sharing",
-        "frequency": "Weekly",
-        "team_status": "Active"
-      }
-    },
-    {
-      "priority": 4,
-      "source": "promotions_api",
-      "title": "null last_sent (active): Jedi NFT Salary",
-      "detail": "status=active; team_status=Active; priority=-",
-      "evidence": {
-        "id": "3d47fee9-8001-4b14-b521-29cec2091f9d",
-        "brand": "Connect",
-        "last_sent": null,
-        "tags": "Invoice",
-        "status": "active",
-        "file_link": "https://docs.google.com/spreadsheets/d/1Qqvg-YOXJCPtef0qsE942E1UMtrM0EE-ruy6ytVoBHo/edit?usp=sharing",
-        "frequency": "Weekly",
-        "team_status": "Active"
-      }
-    },
-    {
-      "priority": 4,
-      "source": "promotions_api",
-      "title": "null last_sent (active): L2E Activated Single Lesson NFTs",
-      "detail": "status=active; team_status=Active; priority=-",
-      "evidence": {
-        "id": "7cb49742-e5fe-445e-87a1-1eaca0870234",
-        "brand": "Connect",
-        "last_sent": null,
-        "tags": "",
-        "status": "active",
-        "file_link": "https://docs.google.com/spreadsheets/d/1JxGs8mQQPxntMeeNPzbIat20k-jz9aehPOyJ0GkCVUs/edit?pli=1&gid=1100773800#gid=1100773800",
         "frequency": "Weekly",
         "team_status": "Active"
       }
@@ -370,7 +370,7 @@
       "priority": 5,
       "source": "sheet_gap",
       "title": "Sheet access gap: Activated Spark NFTs",
-      "detail": "CSV/gviz access denied",
+      "detail": "CSV/gviz access denied; kept prior CSV",
       "evidence": {
         "id": "1c05RuYqXM0-lhZidtdRDgcIuup4f0d3OcXYPJKgsMuc",
         "sheet": "Activated Spark NFTs"
@@ -380,7 +380,7 @@
       "priority": 5,
       "source": "sheet_gap",
       "title": "Sheet access gap: Activated Sprout NFTs",
-      "detail": "CSV/gviz access denied",
+      "detail": "CSV/gviz access denied; kept prior CSV",
       "evidence": {
         "id": "1ZNKQ3BDp5HcOF2SOLvalx9oibcqRn75J9kmal44AMuA",
         "sheet": "Activated Sprout NFTs"
@@ -390,7 +390,7 @@
       "priority": 5,
       "source": "sheet_gap",
       "title": "Sheet access gap: FoundationsAI - 100 Tokens/Node/Brand/Day",
-      "detail": "CSV/gviz access denied",
+      "detail": "CSV/gviz access denied; kept prior CSV",
       "evidence": {
         "id": "1cJq9eyexSnSCOnpHCFYc9zxVZnmwTEHoYKE-rpMla3A",
         "sheet": "FoundationsAI - 100 Tokens/Node/Brand/Day"
@@ -400,7 +400,7 @@
       "priority": 5,
       "source": "sheet_gap",
       "title": "Sheet access gap: L2E B64",
-      "detail": "CSV/gviz access denied (401/HTML)",
+      "detail": "CSV/gviz access denied (401/HTML); kept prior CSV",
       "evidence": {
         "id": "10oxPgT2FR3iknU2YXstbKDEPO1yg4kT7ezz7NP4pHbE",
         "sheet": "L2E B64"
@@ -410,7 +410,7 @@
       "priority": 5,
       "source": "sheet_gap",
       "title": "Sheet access gap: MatchPay",
-      "detail": "CSV/gviz access denied",
+      "detail": "CSV/gviz access denied; kept prior CSV",
       "evidence": {
         "id": "1Ora0L9BmZuESjTFxi-eiKOpcqcJ6x-jbtDea2sa3b4A",
         "sheet": "MatchPay"
@@ -443,8 +443,24 @@
     {
       "priority": 1,
       "source": "promotions_api",
+      "title": "Needs Review: DroidPay",
+      "detail": "team_status=Needs Review; comments='Needs Power Bi update'",
+      "evidence": {
+        "id": "a163df6b-8a3c-495c-b39e-4712de677a03",
+        "brand": "AdventureWurld,Codex,Connect,Element,Elevate,Galvan,Green,Grow,Rally,Switch",
+        "last_sent": "2026-09-11T03:34:01.966Z",
+        "tags": "",
+        "status": "active",
+        "file_link": "https://docs.google.com/spreadsheets/d/1bmCm6YGqE8n-A9RGrZ-KwPx8JT-ETGGqKsKizSwsr-0/edit?usp=sharing",
+        "frequency": "Daily",
+        "team_status": "Needs Review"
+      }
+    },
+    {
+      "priority": 1,
+      "source": "promotions_api",
       "title": "Needs Review: Founder Node Allocation",
-      "detail": "team_status=Needs Review; comments='Need to transfer 1 Codex SN from joemartinez.inc@gmail.com to hixpit57@gmail.com'",
+      "detail": "team_status=Needs Review; comments='Need to transfer 1 Codex SN from joemartinez.inc@gmail.com to hixpit57@gmail.com, Need access to transfer tool from Justin.'",
       "evidence": {
         "id": "865cada4-12bf-4d3a-b8c7-e3f44e147451",
         "brand": "Codex",
@@ -453,6 +469,38 @@
         "status": "active",
         "file_link": "https://docs.google.com/spreadsheets/d/1HJCRaRqts2NznBbLTbQ3PXzBgTDlFemuIizu-xsO5CU/edit?usp=sharing",
         "frequency": "One-time",
+        "team_status": "Needs Review"
+      }
+    },
+    {
+      "priority": 1,
+      "source": "promotions_api",
+      "title": "Needs Review: Give 2 Earn (Give Incentive)",
+      "detail": "team_status=Needs Review; comments='Needs Power Bi update'",
+      "evidence": {
+        "id": "8746540b-be03-4a59-95ea-93ec09aaad46",
+        "brand": "Connect",
+        "last_sent": "2026-09-11T04:06:18.650Z",
+        "tags": "",
+        "status": "active",
+        "file_link": "https://docs.google.com/spreadsheets/d/1Jrv-bQKvgnjXTOYWoQw8PXWGVq-SM_QxTmukfRcwqqE/edit?usp=sharing",
+        "frequency": "Daily",
+        "team_status": "Needs Review"
+      }
+    },
+    {
+      "priority": 1,
+      "source": "promotions_api",
+      "title": "Needs Review: Jedi NFT Salary",
+      "detail": "team_status=Needs Review; comments='Needs Power Bi update.'",
+      "evidence": {
+        "id": "3d47fee9-8001-4b14-b521-29cec2091f9d",
+        "brand": "Connect",
+        "last_sent": "2026-07-21",
+        "tags": "Invoice",
+        "status": "active",
+        "file_link": "https://docs.google.com/spreadsheets/d/1Qqvg-YOXJCPtef0qsE942E1UMtrM0EE-ruy6ytVoBHo/edit?usp=sharing",
+        "frequency": "Weekly",
         "team_status": "Needs Review"
       }
     },
@@ -480,7 +528,7 @@
       "evidence": {
         "id": "7c16d4ad-0710-479d-9058-e09ac1d59b1d",
         "brand": "Codex,Connect,Element,Elevate,Galvan,Give,Green,Grow,Liberty,Rally,Switch",
-        "last_sent": "2026-08-07",
+        "last_sent": "2026-09-09",
         "tags": "Pending Delivery",
         "status": "active",
         "file_link": "https://docs.google.com/spreadsheets/d/1TkQndo_JKIE4lMwyvq3LxPKkwPV80x1-wGqVFz2jsmw/edit?usp=sharing",
@@ -524,16 +572,16 @@
       "priority": 2,
       "source": "promotions_api",
       "title": "Invoice tag: Jedi NFT Salary",
-      "detail": "tags='Invoice'; last_sent=None",
+      "detail": "tags='Invoice'; last_sent=2026-07-21",
       "evidence": {
         "id": "3d47fee9-8001-4b14-b521-29cec2091f9d",
         "brand": "Connect",
-        "last_sent": null,
+        "last_sent": "2026-07-21",
         "tags": "Invoice",
         "status": "active",
         "file_link": "https://docs.google.com/spreadsheets/d/1Qqvg-YOXJCPtef0qsE942E1UMtrM0EE-ruy6ytVoBHo/edit?usp=sharing",
         "frequency": "Weekly",
-        "team_status": "Active"
+        "team_status": "Needs Review"
       }
     },
     {
@@ -560,7 +608,7 @@
       "evidence": {
         "id": "7c16d4ad-0710-479d-9058-e09ac1d59b1d",
         "brand": "Codex,Connect,Element,Elevate,Galvan,Give,Green,Grow,Liberty,Rally,Switch",
-        "last_sent": "2026-08-07",
+        "last_sent": "2026-09-09",
         "tags": "Pending Delivery",
         "status": "active",
         "file_link": "https://docs.google.com/spreadsheets/d/1TkQndo_JKIE4lMwyvq3LxPKkwPV80x1-wGqVFz2jsmw/edit?usp=sharing",
@@ -587,8 +635,8 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: DroidPay \u2014 lag ~271h",
-      "detail": "freq=Daily; last_sent=2026-09-11T03:34:01.966Z; team=Active",
+      "title": "High priority: DroidPay \u2014 lag ~295h",
+      "detail": "freq=Daily; last_sent=2026-09-11T03:34:01.966Z; team=Needs Review",
       "evidence": {
         "id": "a163df6b-8a3c-495c-b39e-4712de677a03",
         "brand": "AdventureWurld,Codex,Connect,Element,Elevate,Galvan,Green,Grow,Rally,Switch",
@@ -597,14 +645,14 @@
         "status": "active",
         "file_link": "https://docs.google.com/spreadsheets/d/1bmCm6YGqE8n-A9RGrZ-KwPx8JT-ETGGqKsKizSwsr-0/edit?usp=sharing",
         "frequency": "Daily",
-        "team_status": "Active"
+        "team_status": "Needs Review"
       }
     },
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: Give 2 Earn (Give Incentive) \u2014 lag ~271h",
-      "detail": "freq=Daily; last_sent=2026-09-11T04:06:18.650Z; team=Active",
+      "title": "High priority: Give 2 Earn (Give Incentive) \u2014 lag ~295h",
+      "detail": "freq=Daily; last_sent=2026-09-11T04:06:18.650Z; team=Needs Review",
       "evidence": {
         "id": "8746540b-be03-4a59-95ea-93ec09aaad46",
         "brand": "Connect",
@@ -613,7 +661,7 @@
         "status": "active",
         "file_link": "https://docs.google.com/spreadsheets/d/1Jrv-bQKvgnjXTOYWoQw8PXWGVq-SM_QxTmukfRcwqqE/edit?usp=sharing",
         "frequency": "Daily",
-        "team_status": "Active"
+        "team_status": "Needs Review"
       }
     },
     {
@@ -635,7 +683,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: MatchPay \u2014 lag ~85h",
+      "title": "High priority: MatchPay \u2014 lag ~108h",
       "detail": "freq=Weekly; last_sent=2026-09-18T22:09:51.312Z; team=Active",
       "evidence": {
         "id": "3860068e-a59a-47e4-9748-9b1d02e79ac6",
@@ -651,12 +699,12 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: Purchased Hosting Credits \u2014 lag ~111h",
-      "detail": "freq=Daily; last_sent=2026-09-17T20:10:10.868Z; team=Active",
+      "title": "High priority: Purchased Hosting Credits \u2014 lag ~151h",
+      "detail": "freq=Daily; last_sent=2026-09-17; team=Active",
       "evidence": {
         "id": "4a3cbd40-a494-4720-bf63-903cf264f8fd",
         "brand": "Codex",
-        "last_sent": "2026-09-17T20:10:10.868Z",
+        "last_sent": "2026-09-17",
         "tags": "",
         "status": "active",
         "file_link": "https://docs.google.com/spreadsheets/d/1fQqTfiEy9jIPBqr8of71gcc8YJtoMS669MctXhb7FFY/edit?usp=sharing",
@@ -667,7 +715,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: WINPay \u2014 lag ~85h",
+      "title": "High priority: WINPay \u2014 lag ~109h",
       "detail": "freq=Daily; last_sent=2026-09-18T21:19:43.577Z; team=Active",
       "evidence": {
         "id": "63a17ff6-5169-4d48-bde7-b4139dffda3e",
@@ -683,22 +731,6 @@
     {
       "priority": 4,
       "source": "promotions_api",
-      "title": "null last_sent (active): 12 Month Hosting Credits",
-      "detail": "status=active; team_status=Active; priority=-",
-      "evidence": {
-        "id": "6dfb637a-970b-401b-8e5e-b740225c1c6c",
-        "brand": "Codex,Connect",
-        "last_sent": null,
-        "tags": "",
-        "status": "active",
-        "file_link": "https://docs.google.com/spreadsheets/d/1n_DRdUOiesvJ9IOCAr9bA9vsyqVj0QF3H6toIxOSSGc/edit?usp=sharing",
-        "frequency": "One-time",
-        "team_status": "Active"
-      }
-    },
-    {
-      "priority": 4,
-      "source": "promotions_api",
       "title": "null last_sent (active): Data Download",
       "detail": "status=active; team_status=Active; priority=-",
       "evidence": {
@@ -708,38 +740,6 @@
         "tags": "",
         "status": "active",
         "file_link": "https://docs.google.com/spreadsheets/d/1Z_nT8mJBArdyssa-UWpU3K7FTNU1NWKhTZgWWvrGXt0/edit?usp=sharing",
-        "frequency": "Weekly",
-        "team_status": "Active"
-      }
-    },
-    {
-      "priority": 4,
-      "source": "promotions_api",
-      "title": "null last_sent (active): Jedi NFT Salary",
-      "detail": "status=active; team_status=Active; priority=-",
-      "evidence": {
-        "id": "3d47fee9-8001-4b14-b521-29cec2091f9d",
-        "brand": "Connect",
-        "last_sent": null,
-        "tags": "Invoice",
-        "status": "active",
-        "file_link": "https://docs.google.com/spreadsheets/d/1Qqvg-YOXJCPtef0qsE942E1UMtrM0EE-ruy6ytVoBHo/edit?usp=sharing",
-        "frequency": "Weekly",
-        "team_status": "Active"
-      }
-    },
-    {
-      "priority": 4,
-      "source": "promotions_api",
-      "title": "null last_sent (active): L2E Activated Single Lesson NFTs",
-      "detail": "status=active; team_status=Active; priority=-",
-      "evidence": {
-        "id": "7cb49742-e5fe-445e-87a1-1eaca0870234",
-        "brand": "Connect",
-        "last_sent": null,
-        "tags": "",
-        "status": "active",
-        "file_link": "https://docs.google.com/spreadsheets/d/1JxGs8mQQPxntMeeNPzbIat20k-jz9aehPOyJ0GkCVUs/edit?pli=1&gid=1100773800#gid=1100773800",
         "frequency": "Weekly",
         "team_status": "Active"
       }
@@ -796,7 +796,7 @@
       "priority": 5,
       "source": "sheet_gap",
       "title": "Sheet access gap: Activated Spark NFTs",
-      "detail": "CSV/gviz access denied",
+      "detail": "CSV/gviz access denied; kept prior CSV",
       "evidence": {
         "id": "1c05RuYqXM0-lhZidtdRDgcIuup4f0d3OcXYPJKgsMuc",
         "sheet": "Activated Spark NFTs"
@@ -806,7 +806,7 @@
       "priority": 5,
       "source": "sheet_gap",
       "title": "Sheet access gap: Activated Sprout NFTs",
-      "detail": "CSV/gviz access denied",
+      "detail": "CSV/gviz access denied; kept prior CSV",
       "evidence": {
         "id": "1ZNKQ3BDp5HcOF2SOLvalx9oibcqRn75J9kmal44AMuA",
         "sheet": "Activated Sprout NFTs"
@@ -816,7 +816,7 @@
       "priority": 5,
       "source": "sheet_gap",
       "title": "Sheet access gap: FoundationsAI - 100 Tokens/Node/Brand/Day",
-      "detail": "CSV/gviz access denied",
+      "detail": "CSV/gviz access denied; kept prior CSV",
       "evidence": {
         "id": "1cJq9eyexSnSCOnpHCFYc9zxVZnmwTEHoYKE-rpMla3A",
         "sheet": "FoundationsAI - 100 Tokens/Node/Brand/Day"
@@ -826,7 +826,7 @@
       "priority": 5,
       "source": "sheet_gap",
       "title": "Sheet access gap: L2E B64",
-      "detail": "CSV/gviz access denied (401/HTML)",
+      "detail": "CSV/gviz access denied (401/HTML); kept prior CSV",
       "evidence": {
         "id": "10oxPgT2FR3iknU2YXstbKDEPO1yg4kT7ezz7NP4pHbE",
         "sheet": "L2E B64"
@@ -836,7 +836,7 @@
       "priority": 5,
       "source": "sheet_gap",
       "title": "Sheet access gap: MatchPay",
-      "detail": "CSV/gviz access denied",
+      "detail": "CSV/gviz access denied; kept prior CSV",
       "evidence": {
         "id": "1Ora0L9BmZuESjTFxi-eiKOpcqcJ6x-jbtDea2sa3b4A",
         "sheet": "MatchPay"
@@ -854,9 +854,9 @@
     }
   ],
   "kpi": {
-    "total": 16775,
-    "delta": 16725,
-    "prior": 50,
+    "total": 20262,
+    "delta": 3487,
+    "prior": 16775,
     "week_start": "2026-09-21",
     "week_end": "2026-09-27"
   }
