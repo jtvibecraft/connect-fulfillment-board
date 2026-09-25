@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-24T07:06:17.237212-04:00",
+  "generated_at": "2026-09-25T06:54:51.156013-04:00",
   "timezone": "America/New_York",
   "week": {
     "week_start": "2026-09-21",
     "week_end": "2026-09-27",
-    "total": 25189,
+    "total": 25939,
     "brands": 10,
     "products": [
       {
         "brand": "Connect",
         "product": "WIN Boost NFT* (Legendary)",
-        "totalQuantity": 25090
+        "totalQuantity": 25830
       },
       {
         "brand": "Connect",
@@ -75,16 +75,16 @@
       {
         "brand": "R-Link",
         "product": "Lite Node",
-        "totalQuantity": 12
-      },
-      {
-        "brand": "R-Link",
-        "product": "Smart Node",
-        "totalQuantity": 1
+        "totalQuantity": 22
       },
       {
         "brand": "R-Link",
         "product": "Rally Droid",
+        "totalQuantity": 1
+      },
+      {
+        "brand": "R-Link",
+        "product": "Smart Node",
         "totalQuantity": 1
       },
       {
@@ -99,8 +99,8 @@
       }
     ],
     "source": "https://promotions-api.asabadoelement.workers.dev/scoreboard/zero-transactions",
-    "prior_total_at_last_snapshot": 20262,
-    "delta_since_last_snapshot": 4927
+    "prior_total_at_last_snapshot": 25189,
+    "delta_since_last_snapshot": 750
   },
   "promotions": {
     "source": "https://promotions-api.asabadoelement.workers.dev/scoreboard/promotions",
@@ -337,7 +337,7 @@
       {
         "priority": 3,
         "source": "promotions_api",
-        "title": "High priority: DroidPay \u2014 lag ~319h",
+        "title": "High priority: DroidPay \u2014 lag ~342h",
         "detail": "freq=Daily; last_sent=2026-09-11; team=Needs Review",
         "evidence": {
           "id": "a163df6b-8a3c-495c-b39e-4712de677a03",
@@ -353,7 +353,7 @@
       {
         "priority": 3,
         "source": "promotions_api",
-        "title": "High priority: Give 2 Earn (Give Incentive) \u2014 lag ~319h",
+        "title": "High priority: Give 2 Earn (Give Incentive) \u2014 lag ~342h",
         "detail": "freq=Daily; last_sent=2026-09-11; team=Needs Review",
         "evidence": {
           "id": "8746540b-be03-4a59-95ea-93ec09aaad46",
@@ -385,7 +385,7 @@
       {
         "priority": 3,
         "source": "promotions_api",
-        "title": "High priority: MatchPay \u2014 lag ~132h",
+        "title": "High priority: MatchPay \u2014 lag ~156h",
         "detail": "freq=Weekly; last_sent=2026-09-18T22:09:51.312Z; team=Active",
         "evidence": {
           "id": "3860068e-a59a-47e4-9748-9b1d02e79ac6",
@@ -401,7 +401,7 @@
       {
         "priority": 3,
         "source": "promotions_api",
-        "title": "High priority: Purchased Hosting Credits \u2014 lag ~175h",
+        "title": "High priority: Purchased Hosting Credits \u2014 lag ~198h",
         "detail": "freq=Daily; last_sent=2026-09-17; team=Active",
         "evidence": {
           "id": "4a3cbd40-a494-4720-bf63-903cf264f8fd",
@@ -417,7 +417,7 @@
       {
         "priority": 3,
         "source": "promotions_api",
-        "title": "High priority: WINPay \u2014 lag ~133h",
+        "title": "High priority: WINPay \u2014 lag ~157h",
         "detail": "freq=Daily; last_sent=2026-09-18T21:19:43.577Z; team=Active",
         "evidence": {
           "id": "63a17ff6-5169-4d48-bde7-b4139dffda3e",
@@ -1402,8 +1402,8 @@
         "SPONSOR WALLET",
         "UNIQUE ID"
       ],
-      "header_row_index": 0,
-      "row_count": 3685,
+      "header_row_index": 2,
+      "row_count": 3687,
       "data_row_count": 3646,
       "status_breakdown": {},
       "date_columns": [
@@ -1475,11 +1475,11 @@
     }
   ],
   "analysis_windows": {
-    "now_et": "2026-09-24T07:06:17.237212-04:00",
-    "last_24h_from": "2026-09-23T07:06:17.237212-04:00",
+    "now_et": "2026-09-25T06:54:51.156013-04:00",
+    "last_24h_from": "2026-09-24T06:54:51.156013-04:00",
     "week_start_et": "2026-09-21T00:00:00-04:00",
     "week_start_note": "Sep 21 2026 00:00 America/New_York (aligned with zero-transactions week_start)",
-    "sheet_summaries_as_of": "2026-09-24T07:06 ET (triage + extra CSVs refreshed; date windows recomputed)"
+    "sheet_summaries_as_of": "2026-09-25T06:54 ET (triage + extra CSVs refreshed; date windows recomputed)"
   },
-  "_sheet_csv_refreshed_at": "2026-09-24T07:06:17.237212-04:00"
+  "_sheet_csv_refreshed_at": "2026-09-25T06:54:51.156013-04:00"
 }

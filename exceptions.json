@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T07:06:17.237212-04:00",
+  "generated_at": "2026-09-25T06:54:51.156013-04:00",
   "count": 29,
   "queue": [
     {
@@ -209,7 +209,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: DroidPay \u2014 lag ~319h",
+      "title": "High priority: DroidPay \u2014 lag ~342h",
       "detail": "freq=Daily; last_sent=2026-09-11; team=Needs Review",
       "evidence": {
         "id": "a163df6b-8a3c-495c-b39e-4712de677a03",
@@ -225,7 +225,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: Give 2 Earn (Give Incentive) \u2014 lag ~319h",
+      "title": "High priority: Give 2 Earn (Give Incentive) \u2014 lag ~342h",
       "detail": "freq=Daily; last_sent=2026-09-11; team=Needs Review",
       "evidence": {
         "id": "8746540b-be03-4a59-95ea-93ec09aaad46",
@@ -257,7 +257,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: MatchPay \u2014 lag ~132h",
+      "title": "High priority: MatchPay \u2014 lag ~156h",
       "detail": "freq=Weekly; last_sent=2026-09-18T22:09:51.312Z; team=Active",
       "evidence": {
         "id": "3860068e-a59a-47e4-9748-9b1d02e79ac6",
@@ -273,7 +273,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: Purchased Hosting Credits \u2014 lag ~175h",
+      "title": "High priority: Purchased Hosting Credits \u2014 lag ~198h",
       "detail": "freq=Daily; last_sent=2026-09-17; team=Active",
       "evidence": {
         "id": "4a3cbd40-a494-4720-bf63-903cf264f8fd",
@@ -289,7 +289,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: WINPay \u2014 lag ~133h",
+      "title": "High priority: WINPay \u2014 lag ~157h",
       "detail": "freq=Daily; last_sent=2026-09-18T21:19:43.577Z; team=Active",
       "evidence": {
         "id": "63a17ff6-5169-4d48-bde7-b4139dffda3e",
@@ -635,7 +635,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: DroidPay \u2014 lag ~319h",
+      "title": "High priority: DroidPay \u2014 lag ~342h",
       "detail": "freq=Daily; last_sent=2026-09-11; team=Needs Review",
       "evidence": {
         "id": "a163df6b-8a3c-495c-b39e-4712de677a03",
@@ -651,7 +651,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: Give 2 Earn (Give Incentive) \u2014 lag ~319h",
+      "title": "High priority: Give 2 Earn (Give Incentive) \u2014 lag ~342h",
       "detail": "freq=Daily; last_sent=2026-09-11; team=Needs Review",
       "evidence": {
         "id": "8746540b-be03-4a59-95ea-93ec09aaad46",
@@ -683,7 +683,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: MatchPay \u2014 lag ~132h",
+      "title": "High priority: MatchPay \u2014 lag ~156h",
       "detail": "freq=Weekly; last_sent=2026-09-18T22:09:51.312Z; team=Active",
       "evidence": {
         "id": "3860068e-a59a-47e4-9748-9b1d02e79ac6",
@@ -699,7 +699,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: Purchased Hosting Credits \u2014 lag ~175h",
+      "title": "High priority: Purchased Hosting Credits \u2014 lag ~198h",
       "detail": "freq=Daily; last_sent=2026-09-17; team=Active",
       "evidence": {
         "id": "4a3cbd40-a494-4720-bf63-903cf264f8fd",
@@ -715,7 +715,7 @@
     {
       "priority": 3,
       "source": "promotions_api",
-      "title": "High priority: WINPay \u2014 lag ~133h",
+      "title": "High priority: WINPay \u2014 lag ~157h",
       "detail": "freq=Daily; last_sent=2026-09-18T21:19:43.577Z; team=Active",
       "evidence": {
         "id": "63a17ff6-5169-4d48-bde7-b4139dffda3e",
@@ -854,9 +854,9 @@
     }
   ],
   "kpi": {
-    "total": 25189,
-    "delta": 4927,
-    "prior": 20262,
+    "total": 25939,
+    "delta": 750,
+    "prior": 25189,
     "week_start": "2026-09-21",
     "week_end": "2026-09-27"
   }
